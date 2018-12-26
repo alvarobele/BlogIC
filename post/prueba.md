@@ -1,6 +1,6 @@
 ---
 title: Primer post
-date: 2018-12-27T00:15:00Z
+date: 2018-12-27T00:50:00Z
 ---
 
 # Este es el primer post
