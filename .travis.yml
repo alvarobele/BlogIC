@@ -6,8 +6,7 @@ script:
   - mkdir -p sitio/content/post
   - mv BlogIC/post/* sitio/content/post/ 
   - mv BlogIC/config.toml sitio/
-  - cd sitio/themes && git clone https://github.com/nirocfz/arabica && cd ..
-  - hugo -t arabica
+  - hugo 
 
 deploy:
   provider: pages
@@ -15,4 +14,4 @@ deploy:
   github-token: $GH_TOKEN
   keep-history: true
   on:
-    branch: master
+    branch: gh-pages
