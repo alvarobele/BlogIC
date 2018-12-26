@@ -1,0 +1,10 @@
+baseurl = "/blog-ic"
+title = "Blog IC"
+author = "Álvaro Beleño"
+paginate = 3
+theme = "arabica"
+publishDir = “blog-ic”
+
+[params]
+description = "ASIR - IES Gonzalo Nazareno"
+twitter = "AlvaroBele_"
