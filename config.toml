@@ -3,7 +3,7 @@ title = "Blog IC"
 author = "Álvaro Beleño"
 paginate = 3
 theme = "arabica"
-publishDir = “blog-ic”
+publishDir = "blog-ic"
 
 [params]
 description = "ASIR - IES Gonzalo Nazareno"
