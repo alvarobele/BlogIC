@@ -2,7 +2,6 @@ baseurl = "/blog-ic"
 title = "Blog IC"
 author = "Álvaro Beleño"
 paginate = 3
-theme = "arabica"
 publishDir = "blog-ic"
 
 [params]
