@@ -3,8 +3,11 @@ install:
   - git clone https://github.com/alvarobele/BlogIC
 script:
   - hugo new site sitio
-  - mv BlogIC/* sitio/content/posts/ 
-  - hugo
+  - mkdir -p sitio/content/post
+  - mv BlogIC/post/* sitio/content/post/ 
+  - mv BlogIC/config.toml sitio/
+  - cd sitio/themes && git clone https://github.com/nirocfz/arabica && cd ..
+  - hugo -t arabica
 
 deploy:
   provider: pages
