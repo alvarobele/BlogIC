@@ -2,7 +2,6 @@ baseurl = "/blog-ic"
 title = "Blog IC"
 author = "Álvaro Beleño"
 paginate = 3
-publishDir = "blog-ic"
 
 [params]
 description = "ASIR - IES Gonzalo Nazareno"
