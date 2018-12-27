@@ -5,4 +5,4 @@ date: 2018-12-27T15:50:00Z
 
 # Este es el primer post
 
-Que, por supuesto, es un post de prueba :)
+Que, cómo no, es un post de prueba :)
