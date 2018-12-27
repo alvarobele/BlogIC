@@ -4,8 +4,6 @@ install:
 script:
   - rm hugo*.deb
   - hugo new site sitio 
-  - mkdir -p sitio/content/post
-  - mv BlogIC/post/* sitio/content/post/ 
   - cd sitio
   - hugo  
 
