@@ -1,4 +1,4 @@
-baseurl = "/blog-ic"
+baseurl = "/public"
 title = "Blog IC"
 author = "Álvaro Beleño"
 paginate = 3
