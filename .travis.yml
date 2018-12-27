@@ -9,7 +9,7 @@ script:
   - rm sitio/config.* && mv BlogIC/config.toml sitio/
   - cd sitio
   - mv ../data/ ../layouts/ ../static/ ../themes/ .
-  - hugo --debug 
+  - hugo  
 
 deploy:
   provider: pages
