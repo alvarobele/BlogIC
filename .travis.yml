@@ -6,9 +6,13 @@ script:
   - hugo new site sitio
   - ls sitio
   - mkdir -p sitio/content/post
+  - ls sitio
   - mv BlogIC/post/* sitio/content/post/ 
+  - ls sitio
   - mv BlogIC/config.toml sitio/
+  - ls sitio
   - cd sitio && hugo 
+  - ls sitio
 
 deploy:
   - provider: pages
