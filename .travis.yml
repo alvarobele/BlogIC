@@ -1,5 +1,5 @@
 install:
-  - wget https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_0.53_Linux-32bit.deb && sudo dpkg -i hugo*.deb
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_0.53_Linux-64bit.deb && sudo dpkg -i hugo*.deb
   - git clone https://github.com/alvarobele/BlogIC
 script:
   - rm hugo*.deb
