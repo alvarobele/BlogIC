@@ -12,12 +12,11 @@ script:
   - mv BlogIC/config.toml sitio/
   - ls sitio
   - cd sitio && hugo 
-  - ls sitio
 
 deploy:
   - provider: pages
+    local-dir: sitio
     skip-cleanup: true
     github-token: $GH_TOKEN
-    keep-history: true
     on:
       branch: master
