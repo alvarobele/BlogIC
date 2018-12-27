@@ -3,15 +3,12 @@ install:
   - git clone https://github.com/alvarobele/BlogIC
 script:
   - rm hugo*.deb
-  - hugo new site sitio
-  - ls sitio
+  - hugo new site sitio && cd sitio && mv data/ layouts/ static/ themes/ ../
   - mkdir -p sitio/content/post
-  - ls sitio
   - mv BlogIC/post/* sitio/content/post/ 
-  - ls sitio
   - rm sitio/config.* && mv BlogIC/config.toml sitio/
-  - ls sitio
-  - cd sitio && ls
+  - cd sitio
+  - mv ../data/ ../layouts/ ../static/ ../themes/ .
   - hugo --debug 
 
 deploy:
