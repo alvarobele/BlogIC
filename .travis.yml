@@ -8,8 +8,8 @@ script:
   - mv BlogIC/post/* sitio/content/post/ 
   - rm sitio/config.* && mv BlogIC/config.toml sitio/
   - cd sitio
-  - mv ../data/ ../layouts/ ../static/ ../themes/ .
-  - hugo  
+  - mv ../data/ ../layouts/ ../static/ ../themes/ . && cd themes && git clone https://github.com/nirocfz/arabica && cd ..
+  - hugo -t arabica 
 
 deploy:
   provider: pages
