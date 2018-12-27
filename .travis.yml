@@ -9,14 +9,14 @@ script:
   - ls sitio
   - mv BlogIC/post/* sitio/content/post/ 
   - ls sitio
-  - mv BlogIC/config.toml sitio/
+  - rm sitio/config.* && mv BlogIC/config.toml sitio/
   - ls sitio
   - cd sitio && ls
-  - hugo 
+  - hugo --debug 
 
 deploy:
   provider: pages
-  local-dir: public
+  local-dir: sitio
   skip-cleanup: true
   github-token: $GH_TOKEN
   on:
