@@ -11,7 +11,8 @@ script:
   - ls sitio
   - mv BlogIC/config.toml sitio/
   - ls sitio
-  - cd sitio && hugo 
+  - cd sitio && ls
+  - hugo 
 
 deploy:
   - provider: pages
