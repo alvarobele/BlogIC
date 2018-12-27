@@ -15,9 +15,9 @@ script:
   - hugo 
 
 deploy:
-  - provider: pages
-    local-dir: sitio
-    skip-cleanup: true
-    github-token: $GH_TOKEN
-    on:
-      branch: master
+  provider: pages
+  local-dir: sitio
+  skip-cleanup: true
+  github-token: $GH_TOKEN
+  on:
+    branch: master
