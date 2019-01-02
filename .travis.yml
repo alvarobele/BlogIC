@@ -9,7 +9,7 @@ script:
   - mv BlogIC/post/* sitio/content/post/ 
   - rm sitio/config.* && mv BlogIC/config.toml sitio/
   - cd sitio
-  - cd themes && git clone https://github.com/nirocfz/arabica && cd ..
+  - cd themes && git clone https://github.com/nirocfz/arabica && rm arabica/exampleSite  && cd ../..
   - hugo -t arabica 
 
 deploy:
