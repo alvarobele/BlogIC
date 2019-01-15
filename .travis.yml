@@ -9,14 +9,14 @@ script:
   - mv BlogIC/post/* sitio/content/post/ 
   - rm sitio/config.* && mv BlogIC/config.toml sitio/
   - cd sitio
-  - cd themes && git clone https://github.com/nirocfz/arabica && rm arabica/exampleSite  && cd ../..
+  - cd themes && git clone https://github.com/nirocfz/arabica && cd ..
   - hugo -t arabica 
 
 deploy:
   provider: pages
   local-dir: sitio/public
-  skip-cleanup: true
+  #skip-cleanup: true
   github-token: $GH_TOKEN
-  keep-history: true
+  #keep-history: true
   on:
     branch: master
