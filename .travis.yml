@@ -11,6 +11,7 @@ script:
   - cd sitio
   - cd themes && git clone https://github.com/nirocfz/arabica && cd ..
   - hugo -t arabica 
+  - rm -rf themes/arabica
 
 deploy:
   provider: pages
