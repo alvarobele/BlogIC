@@ -2,6 +2,7 @@ baseURL = ""
 title = "Blog IC"
 author = "Álvaro Beleño"
 paginate = 3
+theme = "arabica"
 
 [params]
 description = "ASIR - IES Gonzalo Nazareno"
