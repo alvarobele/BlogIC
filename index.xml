@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog IC</title>
-    <link>./</link>
+    <link>BlogIC/</link>
     <description>Recent content on Blog IC</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 27 Dec 2018 15:50:00 +0000</lastBuildDate>
     
-	<atom:link href="./index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="BlogIC/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Primer post</title>
-      <link>./post/prueba/</link>
+      <link>BlogIC/post/prueba/</link>
       <pubDate>Thu, 27 Dec 2018 15:50:00 +0000</pubDate>
       
-      <guid>./post/prueba/</guid>
+      <guid>BlogIC/post/prueba/</guid>
       <description>Este es el primer post Que, cómo no, es un post de prueba :)</description>
     </item>
     
