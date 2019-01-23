@@ -19,5 +19,14 @@
       <description>Este es el primer post Que, cómo no, es un post de prueba :)</description>
     </item>
     
+    <item>
+      <title>Primer post</title>
+      <link>/BlogIC/post/prueba2/</link>
+      <pubDate>Thu, 27 Dec 2018 15:50:00 +0000</pubDate>
+      
+      <guid>/BlogIC/post/prueba2/</guid>
+      <description>Este es el segundo post Que, cómo no, es un post de prueba :)</description>
+    </item>
+    
   </channel>
 </rss>
